@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: clarirai-frontend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://surajkumaar-clarirai.hf.space
+      - key: NEXT_PUBLIC_ENVIRONMENT
+        value: production
+    autoDeploy: true
