@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm install && npm run build",
+  "buildCommand": "node -e \"try{require('fs').chmodSync('./vercel-build.sh', 0o755)}catch(e){console.error(e)}\" && ./vercel-build.sh",
   "installCommand": "npm install",
   "framework": "nextjs",
   "devCommand": "npm run dev",
