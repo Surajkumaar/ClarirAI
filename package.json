@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm install tailwindcss postcss autoprefixer --no-save && next build",
     "start": "next start",
     "lint": "next lint"
   },
