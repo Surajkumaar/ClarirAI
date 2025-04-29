@@ -13,7 +13,7 @@ ClarirAI is an advanced AI-powered system designed to detect and analyze diabeti
 
 ## 🔗 Live Demo
 
-Experience ClarirAI in action: [https://clarir-ai.vercel.app/](https://clarir-ai.vercel.app)
+Experience ClarirAI in action: [https://clarir-ai.vercel.app](https://clarir-ai.vercel.app)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </p>
