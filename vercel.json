@@ -6,7 +6,7 @@
   "devCommand": "npm run dev",
   "outputDirectory": ".next",
   "env": {
-    "NEXT_PUBLIC_API_URL": "@next_public_api_url",
+    "NEXT_PUBLIC_API_URL": "https://surajkumaar-clarirai.hf.space",
     "NEXT_PUBLIC_ENVIRONMENT": "production",
     "NEXT_TYPESCRIPT_IGNORE_ERRORS": "true",
     "NEXT_TELEMETRY_DISABLED": "1"
