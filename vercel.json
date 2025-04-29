@@ -1,8 +1,12 @@
 {
   "version": 2,
   "buildCommand": "node -e \"try{require('fs').chmodSync('./vercel-build.sh', 0o755)}catch(e){console.error(e)}\" && ./vercel-build.sh",
-  "installCommand": "npm install",
+  "installCommand": "npm install && npm install typescript @types/react @types/react-dom @types/node --no-save",
   "framework": "nextjs",
   "devCommand": "npm run dev",
-  "outputDirectory": ".next"
+  "outputDirectory": ".next",
+  "env": {
+    "NEXT_PUBLIC_API_URL": "@next_public_api_url",
+    "NEXT_PUBLIC_ENVIRONMENT": "production"
+  }
 }
